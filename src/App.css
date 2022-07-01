@@ -1,0 +1,144 @@
+.HomePagewrapper{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100vh;
+}
+
+.Formwrapper{
+  background: #282a36;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+.InputGroup{
+  display: flex;
+  flex-direction: column ;
+}
+
+footer a {
+  color: #4aee88;
+}
+
+.mainLabel{
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.Homepagelogo{
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.inputBox{
+  padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.JoinBtn{
+  background: #4aed88 ; 
+  width: 100px;
+  margin-left: auto;
+}
+
+.JoinBtn:hover , .Leavebtn:hover{
+  background: #2b824c;
+}
+
+.createInfo{
+  margin: 0 auto;
+  margin-top: 20px; 
+}
+
+.crateNewBtn{
+  color: #4aed88;
+    text-decoration: none;
+    border-bottom: 1px solid #4aed88;
+    transition: all 0.3s ease-in-out;
+}
+
+.crateNewBtn:hover{
+  color: #368654;
+  border-color: #368654;
+}
+
+.mainwrap{
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  /* height: 100vh; */
+}
+.aside {
+  background: #1c1e29;
+  padding: 15px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.asideInner{
+  flex: 1;
+}
+
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.username {
+  margin-top: 10px;
+}
+
+.logo{
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+ 
+.logoImage{
+  height: 60px;
+  
+}
+
+.Leavebtn{
+  width: 100%;
+  margin-top: 20px;
+  /* background: rgb(13, 247, 103); */
+}
+
+.codemirror{
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
